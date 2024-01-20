@@ -17,6 +17,7 @@
     <!--tailwind with daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- tailwind custom color -->
     <script>
         tailwind.config = {
@@ -55,7 +56,7 @@
                     <div>
                         <img src="./images/banner.png" alt="" class="max-w-sm">
                     </div>
-                    <div class="-mt-16 flex items-center gap-3 p-5 bg-white drop-shadow-lg rounded-lg w-60">
+                    <div class=" -mt-16 banner-img flex items-center gap-3 p-5 bg-white drop-shadow-lg rounded-lg w-60">
                         <i class="fa-solid fa-star text-amber-400 text-3xl"></i>
                         <div>
                             <h3 class="font-bold text-3xl">5.00</h3>
@@ -66,10 +67,50 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="max-w-5xl mx-auto">
         <!-- featured Section -->
-        <section>
-            <h2>Our Featured Products</h2>
+        <section class="mt-20">
+            <h2 class="text-4xl font-bold text-center mb-6">Our Featured Products</h2>
+            <p class="max-w-3xl mx-auto text-center mb-12">There are many variations of passages of Lorem Ipsum
+                available, but
+                the majority have suffered alteration in some form, by injected humour, or randomised words which don't
+                look even slightly believable. </p>
+            <!-- card container  -->
+            <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- card 1 -->
+                <div class="card p-7 bg-base-100 shadow-xl bg-gradient-to-b from-[#F4F4F4] to-[#ffffff00]">
+                    <figure><img src="./images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="text-center mt-6">
+                        <h2 class="text-2xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card p-7 bg-base-100 shadow-xl bg-gradient-to-b from-[#F4F4F4] to-[#ffffff00]">
+                    <figure><img src="./images/tea-2.png" alt="Shoes" /></figure>
+                    <div class="text-center mt-6">
+                        <h2 class="text-2xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card p-7 bg-base-100 shadow-xl bg-gradient-to-b from-[#F4F4F4] to-[#ffffff00]">
+                    <figure><img src="./images/tea-3.png" alt="Shoes" /></figure>
+                    <div class="text-center mt-6">
+                        <h2 class="text-2xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card p-7 bg-base-100 shadow-xl bg-gradient-to-b from-[#F4F4F4] to-[#ffffff00]">
+                    <figure><img src="./images/tea-4.png" alt="Shoes" /></figure>
+                    <div class="text-center mt-6">
+                        <h2 class="text-2xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+
+            </div>
         </section>
     </main>
     <header></header>
